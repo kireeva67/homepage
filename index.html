@@ -11,10 +11,265 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Resume J.K.Rowling">
     <title>Résumé</title>
-    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./static/styles/base.css">
     <link rel="icon" sizes="192x192" href="/path/to/icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manuale&display=swap" rel="stylesheet">
+    <script src="./static/js/main.js"></script>
   </head>
-  <body>
-    ― Hello World! &#x1F609;
+  <body class="turnOnMagicWandSparkles">
+    <main>
+      <article>
+        <div class="page" style="border-color: transparent;">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="three wide center aligned column">
+                <div class="avatar-wrapper">
+                  <object class="avatar" data="./static/img/avatar.png" role="img" aria-label="My profile picture"></object>
+                </div>
+              </div>
+              <div class="thirteen wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <h1 class="name">Joanne Kathleen Rowling</h1>
+                    <ul class="contacts">
+                      <li>
+                        <a href="https://www.facebook.com/JKRowling/about" rel="author" class="facebook">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                          <span>J.K.Rowling</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:jkrolling@owl_mail.com" rel="author" class="mail">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                          <span>jkrolling@owl_mail.com</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/jk_rowling" rel="author" class="twitter">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                          <span>J.K.Rowling</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.jkrowling.com/" rel="author" class="website">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg>
+                          <span>https://www.jkrowling.com/</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <h2>Resume</h2>
+                    <p>― Sold "the boy who lived" and earned billions. I`m the richest woman in the UK (even richer than the queen of my country).
+                      The girl who has done the best she can with the talent that she has.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <h3>Experience</h3>
+                <li class="highlighted">
+                  <p><strong>Writer</strong></p>
+                  <p><em>1971 – present</em></p>
+                  <ul class="inverted">
+                    <li>At <em>1971</em> wrote my first book: "Rabbit". It was very hard, I was a bad writer, in physical meaning, I was 6 years old. </li>
+                    <li class="details">
+                      <input type="checkbox" id="other">
+                      <label for="other" class="summary">Books for children:</label>
+                      <div>
+                        <ul>
+                          <li>The Ickabog <em>(10 November 2020)</em></li>
+                          <li>The Christmas Pig <em>(12 October 2021)</em></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="details">
+                      <input type="checkbox" id="other">
+                      <label for="other" class="summary">Books for Potterheads:</label>
+                      <div>
+                        <ul>
+                          <li>Harry Potter and the Philosopher's Stone <em>(26 June 1997)</em></li>
+                          <li>Harry Potter and the Chamber of Secrets <em>(2 July 1998)</em></li>
+                          <li>Harry Potter and the Prisoner of Azkaban <em>(8 July 1999)</em></li>
+                          <li>Harry Potter and the Goblet of Fire <em>(8 July 2000)</em></li>
+                          <li>Fantastic Beasts and Where to Find Them <em>(1 March 2001)</em></li>
+                          <li>Quidditch Through the Ages <em>(1 March 2001)</em></li>
+                          <li>Harry Potter and the Order of the Phoenix <em>(21 June 2003)</em></li>
+                          <li>Harry Potter and the Half-Blood Prince <em>(16 July 2005)</em></li>
+                          <li>Harry Potter and the Deathly Hallows <em>(21 July 2007)</em></li>
+                          <li>Harry Potter and the Cursed Child <em>(31 July 2016)</em></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="details">
+                      <input type="checkbox" id="other">
+                      <label for="other" class="summary">Cormoran Strike series <strong>(as Robert Galbraith)</strong></label>
+                      <div>
+                        <ul>
+                          <li>The Cuckoo's Calling <em>(18 April 2013)</em></li>
+                          <li>The Silkworm <em>(19 June 2014)</em></li>
+                          <li>Career of Evil <em>(20 October 2015)</em></li>
+                          <li>Lethal White <em>(18 September 2018)</em></li>
+                          <li>Troubled Blood <em>(15 September 2020)</em></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <br>
+                <li>
+                  <p><em>2012</em></p>
+                  <p><strong>Entrepreneur</strong></p>
+                  <ul>
+                    <li>Digital company Pottermore was launched. Pottermore - a newly designed site containing news, features, and articles plus previously unreleased writing by me and removed some features including the interactive Moment illustrations, House Cup, and Sorting ceremony.</li>
+                  </ul>
+                </li>
+                <br>
+                <li>
+                  <p><em>2001-2011</em></p>
+                  <p><strong>Producer</strong></p>
+                  <ul>
+                    <li>The film adaptation of the first book was released by Warner Bros, and was followed by six more book adaptations, concluding with the release of the eighth film, Harry Potter and the Deathly Hallows Part 2.</li>
+                  </ul>
+                </li>
+                <br>
+                <li>
+                  <p><em>1995</em></p>
+                  <p><strong>Teacher</strong> in <strong>Edinburgh</strong></p>
+                  <ul>
+                    <li>Started to work teacher at school. <strong>"I will definitely kill some children in my books!	&#128125;"</strong></li>
+                  </ul>
+                </li>
+                <br>
+                <li>
+                  <p><em>1990</em></p>
+                  <ul>
+                    <li>Conceived the idea of Harry Potter: the boy who s̶n̶a̶k̶e̶  p̶y̶t̶h̶o̶n̶ LIVED!</li>
+                  </ul>
+                </li>
+                <br>
+                <li>
+                  <p><em>1986 &ndash; 1990</em></p>
+                  <p><strong>Secretary</strong> at <strong> Amnesty International</strong></p>
+                  <ul>
+                    <li>make the best coffee &#9749;, put paper in printer, solved all the issues while the boss was drinking coffee that I made</li>
+                  </ul>
+                </li>
+                <br>
+                </ul>
+                <br>
+                <h3>Charities</h3>
+                <li class="highlighted">
+                  <ol class="inverted">
+                    <li><a href="https://www.wearelumos.org/" rel="external"><strong>Lumos</strong></a></li>
+                    <ul>
+                      <li class="details">
+                        <input type="checkbox" id="other">
+                        <label for="other" class="summary">Founder and President</label>
+                        <div>
+                          <p>International children’s charity fighting for every child’s right to a family by transforming care systems around the world. Lumos sheds light on the root causes of family separation – poverty, conflict and discrimination – and demonstrates that children can safely be united with loving families that help them thrive.</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <br>
+                    <li><a href="https://www.annerowlingclinic.org/" rel="external"><strong>Anne Rowling Regenerative Neurology Clinic</strong></a></li>
+                    <ul>
+                      <li class="details">
+                      <input type="checkbox" id="other">
+                      <label for="other" class="summary">The Anne Rowling Clinic was founded by a donation from me.</label>
+                      <div>
+                        <p>The Clinic delivers clinical care and research to improve the lives of people with degenerative conditions affecting the brain, as well as hosting specialist NHS clinics for these conditions.  Jo continues to fund MS research exclusively through the Anne Rowling Clinic.</p>
+                      </div>
+                      </li>
+                    </ul>
+                    <br>
+                    <li><a href="https://www.volanttrust.org/" rel="external"><strong>Volant Trust</strong></a></li>
+                    <ul>
+                      <li class="details">
+                      <input type="checkbox" id="other">
+                      <label for="other" class="summary">I also support a wide range of projects and organisations through my charitable trust</label>
+                      <div>
+                        <p>Volant trust help alleviate social deprivation particularly affecting women and children.</p>
+                      </div>
+                      </li>
+                    </ul>
+                  </ol>
+                </li>
+                <br>
+                <h3>Achievements</h3>
+                <ul>
+                  <li>Become trans-exclusionary radical feminist (Yes, it's hard pronounced) 	&#129465;, <em>2020</em></li>
+                  <li>Companion of Honour, for services to literature and philanthropy, <em>2017</em></li>
+                  <li>PEN America Literary Service Award, <em>2016</em></li>
+                  <li>Lifetime Achievement Award, British Book Awards, <em>2008</em></li>
+                  <li>Commencement Day Speaker, Harvard University, USA, <em>2008</em></li>
+                  <li>Became first person on the planet who earned billion dollars as books author &#128176;, <em>2004</em></li>
+                  <li>WH Smith Fiction Award, <em>2004</em></li>
+                  <li>Order of the British Empire (OBE), <em>2001</em></li>
+                  <li>Booksellers Association Author of the Year, <em>1998 and 1999</em></li>
+                  <li>I've found greatest looser in the world, he looked at me from the mirror!	&#128560;, <em>1993</em></li>
+                </ul>
+              </div>
+              <div class="six wide column">
+                  <h3>Languages</h3>
+                  <p class="tags small"><strong><span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span> &#127467;&#127479; <span>FRANÇAIS</span> ss <span>PARSELTONGUE</span> </strong></p>
+                  <section>
+                    <h3>Skills</h3>
+                    <p class="tags small">TWITTING COMMUNICATING WRITING HEXING <span class="nowrap">MONEY EARNING</span> READING <span class="nowrap">GOOGLE DOCS</span> TRANSLATING RESEARCHING PARENTING EDITING PHILANTHROPING</p>
+                  </section>
+                  <section>
+                    <h3>Character</h3>
+                    <p class="tags small">CHARMING INTERESTING CONFIDENT PROMOTING SOCIABLE FEMINIST KIND BLONDE SELF-PROMOTING</p>
+                  </section>
+                  <section>
+                    <h3>Likes&#128156;</h3>
+                    <p class="tags small"><span class="nowrap">TO BE A ROBERT GALBRAITH</span> HERMIONE SEVEN JULY BOOKS GALLEONS HUMOUR PATIENCE DEMOCRACY MAGIC </p>
+                  </section>
+                  <section>
+                    <h3>Dislikes	&#128148;</h3>
+                    <p class="tags small">TRANSGENDERS DEPRESSION <span class="nowrap">RONALD WEASLEY</span> <span class="nowrap">50 SHADES OF GRAY</span> REPORTERS<span class="nowrap">OWN BAD HABITS</span> POLITICS RACISM </p>
+                  </section>
+                  <section>
+                    <h3>Wants	&#129310;</h3>
+                    <p class="tags small bulleted"><span class="tag">RULE THE WORLD</span><span class="tag">GIVE BETTER HUSBAND TO HERMIONE</span><span class="tag">TO WRITE MORE</span><span class="tag">BE BRAVE LIKE A GRIFFINDER</span><span class="tag">STUDY AT HOGWARTS</span><span class="tag">BUTTER BEER</span></p>
+                  </section>
+                  <section>
+                    <h3>Education</h3>
+                    <ul class="timeline">
+                      <li>
+                        <div><em>1982</em></div>
+                        <div>Admitted to the University of Exeter, knowledge of Classics would one day come in handy for creating the spells in the Harry Potter series.</div>
+                      </li>
+                      <br>
+                      <li>
+                        <div><em>1982</em></div>
+                        <div>Successfully failed entrance exams for Oxford University.</div>
+                      </li>
+                      <li>
+                        <div><em>1972 &ndash; 1983</em></div>
+                        <div>Studied at St Michael's Primary School. My headmaster, Alfred Dunn, has been suggested as the inspiration for the Harry Potter headmaster Albus Dumbledore 	&#129497;&#8205;&#9794;&#65039;</div>
+                      </li>
+                      <li>
+                        <div><em>1965 &ndash; Apocalypse</em></div>
+                        <div>Receive knowledge from ancient magic scrolls.</div>
+                      </li>
+                    </ul>
+                  </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
