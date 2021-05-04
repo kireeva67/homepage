@@ -19,10 +19,10 @@
   body {
     margin: 0;
     line-height: 1.4285em;
-    color: rgba(0, 0, 0, 0.87);
+    color: #083301;
   }
   body {
-    font-family:
+    /* font-family:
      apple-system,
      BlinkMacSystemFont,
      "Segoe UI",
@@ -31,7 +31,8 @@
      Ubuntu,
      Cantarell,
      "Helvetica Neue",
-     sans-serif;
+     sans-serif; */
+     font-family: 'Manuale', serif;
   }
   h1,
   h2,
@@ -150,7 +151,7 @@
     font-weight: normal;
   }
   a {
-    color: blue;
+    color: #083301;
     background-color: transparent;
     text-decoration: none;
   }
@@ -266,7 +267,7 @@
   .page {
     position: relative;
     padding: 3em;
-    background: white;
+    background: #f2f0e9;
     box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.1);
     transition: box-shadow 0.2s linear;
   }
@@ -390,7 +391,7 @@
   .grid > .column.row > [class*="three wide"].column,
   .grid > [class*="three wide"].column,
   .column.grid > [class*="three wide"].column {
-    width: 18.75% !important;
+    width: 22.75% !important;
   }
   .grid > .row > [class*="four wide"].column,
   .grid > .column.row > [class*="four wide"].column,
@@ -450,7 +451,7 @@
   .grid > .column.row > [class*="thirteen wide"].column,
   .grid > [class*="thirteen wide"].column,
   .column.grid > [class*="thirteen wide"].column {
-    width: 81.25% !important;
+    width: 77.25% !important;
   }
   .grid > .row > [class*="fourteen wide"].column,
   .grid > .column.row > [class*="fourteen wide"].column,
@@ -523,6 +524,7 @@
     flex: 1 0 auto;
     max-width: 15rem;
     width: 100%;
+    border-radius: 100%;
   }
   @media only screen and (max-width: 1199px) {
     .avatar-wrapper {
@@ -1048,3 +1050,4 @@
       margin-bottom: 0;
     }
   }
+* {cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;} 
